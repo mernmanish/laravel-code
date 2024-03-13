@@ -1,0 +1,346 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.login-section{
+ margin-top: 25%;
+ /* margin-bottom: 50%; */
+}
+.blue-btn{
+  height: 44px;
+  border-radius: 4px;
+  background-color: #2350f5;
+}
+
+.form-label{
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 0.86;
+    margin-bottom: 1rem;
+}
+.registration-model-content{
+  font-size: 14px;
+  font-weight: 600;
+  font-style: normal;
+  font-family: SFProText;
+}
+.form-title{
+    font-family: SFProText;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.22;
+}
+
+.form-input{
+    /* margin-bottom: 1rem; */
+    border-radius: 5px;
+    /* box-shadow: 0 0 0 0.5px #2350f5, inset 0 0 0 0.5px #2350f5, inset 0 0 0 1px var(--pale-grey); */
+    background-color: var(--white);
+    height: 44px;
+}
+
+.form-input:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #2350f5;
+    outline: 0;
+    box-shadow: none;
+    /* box-shadow: 0 0 0 0.2rem rgba(21, 87, 158, 0.25); */
+}
+
+.para-footer{
+    font-size: 14px;
+  font-weight: 600;
+  font-family: SFProText;
+  font-style: normal;
+}
+.action-link{
+    color:#2350f5;
+}
+.category-title{
+  font-family: SFProText;
+  font-size: 16px;
+  font-weight:600;
+  font-style: normal;
+}
+.cat-list>img{
+  width: 60px;
+  height: 60px;
+}
+.cat-list>p{
+  text-align: center;
+  color: #000;
+  font-style: normal;
+  line-height: normal;
+  /* font-family: SFProText; */
+  font-size: 11px;
+}
+.product-card-title{
+  font-family: SFProText;
+  font-size: 14px;
+  font-weight: normal;
+  color: #0a0a14;
+  font-style: normal;
+  text-align: left;
+  line-height: 1.29;
+  letter-spacing: normal;
+  margin-bottom: 0px;
+}
+.product-card-title>a{
+  text-decoration: none;
+  color: #0a0a14;
+}
+.product-card-moq{
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+.product-card-seller{
+  font-size: 11px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.product-card-price{
+  font-size: 15px;
+  font-weight: 600;
+  color: #0a0a14;
+}
+
+.product-card-margin{
+  font-size: 15px;
+  font-weight: 600;
+  color: #11b500;
+  margin-left: 25px;
+}
+
+.product-card-variant{
+  font-size: 12px;
+  font-weight: normal;
+  color: #73737d;
+}
+
+.product-card-price-margin{
+  margin-bottom: 0px;
+}
+
+.product-card{
+  border-bottom: 1px solid #d5cccc;
+  padding: 10px;
+}
+
+.product-list-title{
+  border-bottom: 1px solid #d5cccc;
+  border-top: 1px solid #d5cccc;
+  z-index: 99999;
+  background-color: #fff;
+  position: fixed;
+  width: 33%;
+}
+
+.blue-button-rectangle{
+  height: 44px;
+  background-color: #2350f5;
+  color:#fff;
+  border-radius: 0%;
+  /* bottom: 0; */
+  /* width: 32%; */
+  
+}
+.fix-buy-now{
+  position: fixed;
+  bottom: 0%;
+  /* padding-left: 6%;
+  padding-right: 5%; */
+  max-width: 100%;
+}
+.fixed-top{
+  width: 33%;
+  top:none !important;
+  right:none !important;
+  left:none !important;
+}
+
+.header-card{
+    border-bottom: 1px solid #ededed;
+    z-index: 99999;
+    background-color: #fff;
+    position: fixed;
+    width: 33%;
+}
+
+.blue-button-fixed-bottom{
+  z-index: 99999;
+  position: fixed;
+  width: 33%;
+  bottom: 0;
+  background:#2350f5;
+  color: #fff;
+}
+
+.header-fixed{
+  z-index: 99999;
+  background-color: #fff;
+  position: fixed;
+  
+}
+
+.left-col-desktop{
+  background-color: #73737d;
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url("https://thumbs.dreamstime.com/b/hand-drawn-style-online-shopping-doodle-elements-vector-illustration-e-commerce-background-170347111.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+.buyer-interest{
+  /* float: left; 
+  width: 100%; 
+  background: #fafafd; 
+  padding: 6em 0; */
+}
+.buyer-interest ul {
+	margin: 35px 0;
+	display: inline-block;
+}
+.buyer-interest ul li {  
+  font-size: 18px;
+  text-align: left;
+  color: #fff;
+  line-height: 30px;
+  margin-bottom: 20px;
+  list-style: none;
+  /* float: left; */
+  width: 100%;
+}
+.buyer-interest ul li:last-child{
+	margin-bottom: 0px;
+}
+.buyer-interest .icon{
+	  width: 50px;
+    text-align: center;
+    float: left;
+    margin-right: 17px;
+}
+.buyer-interest .icon img{width: auto; max-width: inherit;}
+
+
+.right-col-desktop{
+  background-color: #73737d;
+  color: #fff;
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url("https://trazoostg.blob.core.windows.net/trazoo-web-uploads/clothes-trazoo-1.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.playstore_btn {
+  text-decoration: none;
+  margin-right: 13px;
+  padding: 0;
+  display: inline-block;
+  transition: all 0.3s;
+}
+.playstore_btn:hover {
+opacity: 0.8
+}
+
+.desktop-row{
+  height: 100%;
+}
+.center-col-desktop{
+  height: 100vh;
+  overflow: scroll;
+  position: relative;
+}
+
+.container-desktop{
+  max-width: 100%;
+}
+
+
+/* scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.3);
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.navbar {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.header-dynamic-product-listing{
+  display: none;
+}
+
+.header-dynamic-product-view{
+  display: none;
+}
+
+.errorText{
+  color: #cd1000 !important;
+  font-size: 14px;
+}
+
+
+/* .product-card-title>a{
+  
+} */
+
+@media screen and (max-width: 768px) {
+
+  .header-card{
+    width: 100%;
+  }
+
+  .header-fixed{
+    width: 91%;
+    z-index: 99999;
+    background-color: #fff;
+    top:none !important;
+    right:none !important;
+    left:none !important;
+    padding: 10px;
+    box-shadow: 0px 1px #888888;
+    /* position: fixed; */
+  }
+
+  .blue-button-fixed-bottom{
+    width: 100%;
+  }
+
+  .product-list-title{
+    width: 100%;
+  }
+
+  .blue-button-rectangle {
+    width: 94%;
+  }
+
+  .fix-buy-now{
+    padding-left: 0%;
+    padding-right: 0%;
+    width: 100%;
+  
+  }
+}
+
+
